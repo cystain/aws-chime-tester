@@ -1,7 +1,7 @@
 {
   "name": "aws-chime-tester",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "description": "This README would normally document whatever steps are necessary to get your application up and running.",
   "author": "",
   "scripts": {
