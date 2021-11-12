@@ -12,11 +12,11 @@
   
   const { v4: uuid } = require('uuid');
 
-  AWS.config.update({
-    accessKeyId: "AKIAQNS5IHH2VLCVD4OS",
-    secretAccessKey: "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",
-    "region": "us-west-2"
-  }); // for simplicity. In prod, use loadConfigFromFile, or env variables
+  // AWS.config.update({
+  //   accessKeyId: "",
+  //   secretAccessKey: "",
+  //   "region": "us-west-2"
+  // }); // for simplicity. In prod, use loadConfigFromFile, or env variables
 
   // You must use "us-east-1" as the region for Chime API and set the endpoint.
   const chime = new Chime({ region: 'us-east-1' });
